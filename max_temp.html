@@ -6,7 +6,7 @@
 
     <!--style and bootstrap links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_visual.css">
 
 </head>
 
@@ -41,10 +41,10 @@
                     Plots
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="max_temp.html">Max Temperature</a></li>
-                        <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                        <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                        <li><a class="dropdown-item" href="windspeed.html">Windspeed</a></li>
+                        <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+                        <li><a class="dropdown-item" href="#">Humidity</a></li>
+                        <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+                        <li><a class="dropdown-item" href="#">Windspeed</a></li>
                     </ul>
                 </li>
 
@@ -65,17 +65,15 @@
 <!--Bootstrap Grid----------------------------------------------------------------------->
 <p></p>
 <div class="container-fluid">
-
+    
     <div class="row">
         <div class="col-lg-7 col-md-12 p-4">
-            <h1>Summary: Latitude vs. X</h1>
+            <h1>Max Temperature</h1>
             <hr>
-            <img src="Resources/assets/images/Fig1.png" id="float_left"; width=275; height=275;>
+            <img src="Resources/assets/images/Fig1.png" width=600; height=412.5>
             
             <p>By pulling data from OpenWeatherMap API we created a dataset of cities around the world and analyzed the weather patterns as you get closer to the equator.</p>
             
-            <p>We plotted the data using Matplotlib, focusing on different aspects of weather (temperature, humidity, cloudiness, and wind speed) and how they are impacted by latitude.</p>
-            <p>On this site you'll find our visualizations and a summary of our conclusions.</p>
         </div>
 
         <div class="col-xs-05 panel-transparent p-0" id="nav-select"></div>
@@ -86,13 +84,14 @@
             <!--table displays on larger screen-->
             <table id="nav-select">
                 <tr>
-                    <td><a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" id="float_left"; width=175; height=175; alt="max_temperture";></a></td>
-                    <td><a href="humidity.html"><img src="Resources/assets/images/Fig2.png" id="float_left"; width=175; height=175;></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig1.png" id="float_left"; width=170; height=170; alt="max_temperture";></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig2.png" id="float_left"; width=170; height=170;></a></td>
                 </tr>
-
+                
                 <tr>
-                    <td><a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" id="float_left"; width=175; height=175;></a></td>
-                    <td><a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" id="float_left"; width=175; height=175;></a></td>
+                    <br>
+                    <td><a href="#"><img src="Resources/assets/images/Fig3.png" id="float_left"; width=170; height=170;></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig4.png" id="float_left"; width=170; height=170;></a></td>
                 </tr>
 
             </table>
@@ -100,10 +99,10 @@
             <!--table displays on smaller screen-->
             <table id="nav-select-sm">
                 <tr>
-                    <td><a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" id="float_left"; width=165; height=165;></a></td>
-                    <td><a href="humidity.html"><img src="Resources/assets/images/Fig2.png" id="float_left"; width=165; height=165;></a></td>
-                    <td><a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" id="float_left"; width=165; height=165;></a></td>
-                    <td><a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" id="float_left"; width=165; height=165;></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig1.png" id="float_left"; width=165; height=165;></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig2.png" id="float_left"; width=165; height=165;></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig3.png" id="float_left"; width=165; height=165;></a></td>
+                    <td><a href="#"><img src="Resources/assets/images/Fig4.png" id="float_left"; width=165; height=165;></a></td>
                 </tr>
 
             </table>
