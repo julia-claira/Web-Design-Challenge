@@ -25,6 +25,12 @@ h1 {
     color: darkcyan;
 }
 
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+    font-size: medium;
+}
+
 .row {
     background-color: #fff;
 }
